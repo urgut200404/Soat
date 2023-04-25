@@ -1,0 +1,52 @@
+ .container{
+    background: url('soat.jpg') no-repeat;
+    background-size: cover;
+}
+h1{
+    bottom: 20%;
+    left: 5%;
+    font-size: 50px;
+}
+.asosiy{
+    width: 404px;
+    height: 404px;
+    background:url('ak_47.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    z-index: 1;
+    position:relative;
+    top: 22.95%;
+    left: 22.8%;
+
+}
+
+.soat,.minut,.sekund{
+    width: 404px;
+    height: 404px;
+    position: absolute;
+    opacity: 70%;
+    border-radius: 50%;
+}
+.soat-tayoq,.minut-tayoq,.sekund-tayoq{
+    width: 220px;
+    height: 7px;
+    margin-top: 50%;
+     
+    margin-left: 10px;
+    border-radius: 50px 0px 0px 0px;
+}
+.soat-tayoq1,.minut-tayoq1,.sekund-tayoq1{
+    width: 220px;
+    height: 7px;
+    margin-top: 2%;
+    margin-left: 10px;
+    border-radius: 50px 0px 0px 0px;
+}
+.soat-tayoq1{ border: solid rgb(249, 12, 12);}
+.minut-tayoq1{background-color: black;border:solid rgb(213, 215, 222);}
+.sekund-tayoq1{background-color:rgb(8, 8, 6) !important;border:dashed #fff;}
+
+.soat-tayoq{ border: solid rgb(249, 12, 12);background-color: antiquewhite;}
+.minut-tayoq{border:solid orange;background-color: antiquewhite;}
+.sekund-tayoq{background-color:rgb(8, 6, 6) !important;border:dashed #fff;}
